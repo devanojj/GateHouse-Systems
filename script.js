@@ -1,4 +1,4 @@
-/* GateHouse Systems — script.js
+/* GateHouse Systems script.js
    Mobile nav, footer year, and a mailto-based contact form. No dependencies. */
 
 (function () {
@@ -118,7 +118,7 @@
       var body = [
         'Name: ' + name.value.trim(),
         'Email: ' + email.value.trim(),
-        'Company: ' + (company.value.trim() || '—'),
+        'Company: ' + (company.value.trim() || 'Not given'),
         '',
         message.value.trim()
       ].join('\n');

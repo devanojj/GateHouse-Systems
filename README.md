@@ -1,14 +1,14 @@
-# GateHouse Systems — website
+# GateHouse Systems website
 
 Static marketing site for GateHouse Systems (IT support and systems administration).
-Plain HTML, CSS and vanilla JavaScript — no frameworks, no build step. Deploy by
+Plain HTML, CSS and vanilla JavaScript, with no frameworks and no build step. Deploy by
 pushing the files to GitHub Pages.
 
 ## Files
 
 | File | Purpose |
 | --- | --- |
-| `index.html` | The whole site — hero, services, about, contact, footer |
+| `index.html` | The whole site: hero, services, about, contact, footer |
 | `styles.css` | All styling (mobile-first, navy/white) |
 | `script.js` | Mobile nav, footer year, mailto contact form |
 | `favicon.svg` | Favicon (matches the header logo mark) |
@@ -18,7 +18,7 @@ pushing the files to GitHub Pages.
 
 The only external request is the Inter webfont from Google Fonts. Delete the two
 `<link rel="preconnect">` tags and the `fonts.googleapis.com` stylesheet in
-`index.html` to make the site fully self-contained — the CSS falls back to the
+`index.html` to make the site fully self-contained. The CSS falls back to the
 system UI font stack.
 
 ## Preview locally
@@ -80,16 +80,16 @@ certificate issuance can take up to 24 hours.
 
 ### Updating the site
 
-Edit the files and push to `main` — Pages redeploys automatically.
+Edit the files and push to `main`. Pages redeploys automatically.
 
 ## Things you may want to change
 
-- **Email address** — `info@gatehouse.systems` is used in three places: the contact
+- **Email address**: `info@gatehouse.systems` is used in three places: the contact
   section and footer links in `index.html`, and the `CONTACT_EMAIL` constant at the
   top of the contact-form block in `script.js`. Update all three if it changes.
-- **Phone** — `+353 89 483 5439` appears in the contact section and the footer
+- **Phone**: `+353 89 483 5439` appears in the contact section and the footer
   (both as visible text and in the `tel:` href).
-- **Contact form** — it has no backend. On submit it validates the fields and opens
+- **Contact form**: it has no backend. On submit it validates the fields and opens
   the visitor's email client with the message pre-filled. To collect submissions
   server-side instead, point the `<form>` at a service such as Formspree and remove
   the submit handler from `script.js`.

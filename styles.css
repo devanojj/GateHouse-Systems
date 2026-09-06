@@ -1,4 +1,4 @@
-/* GateHouse Systems — styles.css
+/* GateHouse Systems styles.css
    Mobile-first, no dependencies beyond the Inter webfont. */
 
 :root {
@@ -204,13 +204,13 @@ img, svg { max-width: 100%; }
   flex-direction: column;
   gap: .25rem;
 }
-.nav a {
+.nav a:not(.btn) {
   display: block;
   padding: .7rem .25rem;
   color: #d8e4f2;
   font-weight: 500;
 }
-.nav a:hover { color: #fff; text-decoration: none; }
+.nav a:not(.btn):hover { color: #fff; text-decoration: none; }
 .nav .btn { margin-top: .5rem; color: #fff; }
 
 /* ---------- Hero ---------- */
@@ -482,7 +482,7 @@ img, svg { max-width: 100%; }
     padding: 0;
   }
   .nav ul { flex-direction: row; align-items: center; gap: 1.9rem; }
-  .nav a { padding: .35rem 0; }
+  .nav a:not(.btn) { padding: .35rem 0; }
   .nav .btn { margin-top: 0; }
 
   .grid { grid-template-columns: repeat(3, 1fr); }

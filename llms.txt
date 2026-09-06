@@ -1,0 +1,25 @@
+# GateHouse Systems
+
+> IT support and systems administration for small and growing businesses.
+> Microsoft 365, Azure, Intune device management, helpdesk support and networking.
+> Based in Ireland.
+
+## Services
+
+- **Microsoft 365 administration**: Tenant setup and migration, Exchange Online, SharePoint and Teams, licensing reviews, security baselines, MFA and conditional access.
+- **Azure and cloud support**: Virtual machines, backup and recovery, identity with Entra ID, cost tuning and architecture for small and mid-size workloads.
+- **Device management and Intune**: Zero-touch enrolment with Autopilot, compliance and configuration policies, app deployment, patching and remote wipe for Windows, macOS and mobile.
+- **Helpdesk and IT support**: First- to third-line support covering accounts, access, hardware and software.
+- **Network setup and troubleshooting**: Firewalls, switching, structured Wi-Fi, VPN and remote access: designed, installed and documented.
+- **Security and ongoing maintenance**: Backup verification, endpoint protection, patch cycles, onboarding and offboarding, and documentation kept current.
+
+## Contact
+
+- Website: https://gatehouse.systems/
+- Email: info@gatehouse.systems
+- Phone: +353 89 483 5439
+
+## Notes
+
+- Engagements range from one-off projects to ongoing managed support.
+- Work is carried out directly by the engineer handling the account, and changes are documented.
