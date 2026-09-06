@@ -81,15 +81,3 @@ certificate issuance can take up to 24 hours.
 ### Updating the site
 
 Edit the files and push to `main`. Pages redeploys automatically.
-
-## Things you may want to change
-
-- **Email address**: `info@gatehouse.systems` is used in three places: the contact
-  section and footer links in `index.html`, and the `CONTACT_EMAIL` constant at the
-  top of the contact-form block in `script.js`. Update all three if it changes.
-- **Phone**: `+353 89 483 5439` appears in the contact section and the footer
-  (both as visible text and in the `tel:` href).
-- **Contact form**: it has no backend. On submit it validates the fields and opens
-  the visitor's email client with the message pre-filled. To collect submissions
-  server-side instead, point the `<form>` at a service such as Formspree and remove
-  the submit handler from `script.js`.
