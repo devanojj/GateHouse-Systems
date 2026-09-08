@@ -11,10 +11,22 @@ pushing the files to GitHub Pages.
 | `index.html` | The whole site: hero, services, about, contact, footer |
 | `styles.css` | All styling (mobile-first, navy/white) |
 | `script.js` | Mobile nav, footer year, mailto contact form |
-| `favicon.svg` | Favicon (matches the header logo mark) |
+| `favicon.ico` | Favicon for search results and older browsers (16, 32, 48px) |
+| `favicon-96x96.png` | 96px favicon; Google recommends at least 48px |
+| `favicon.svg` | Vector favicon, preferred by modern browsers |
+| `apple-touch-icon.png` | 180px home-screen icon for iOS |
+| `icon-192.png`, `icon-512.png` | Android / PWA icons referenced by the manifest |
+| `site.webmanifest` | Web app manifest (name, theme colour, icons) |
+| `og-image.png` | 1200x630 preview image for social and chat link sharing |
 | `CNAME` | Custom domain: `gatehouse.systems` |
 | `.nojekyll` | Tells GitHub Pages to serve files as-is, skipping Jekyll |
-| `robots.txt`, `sitemap.xml` | Basic search-engine hints |
+| `robots.txt`, `sitemap.xml` | Search-engine crawl hints |
+| `llms.txt` | Plain-text summary for AI assistants and answer engines |
+
+To regenerate the icons after changing `favicon.svg`, note that they are rendered
+from the same path data. Google only supports raster favicons (BMP, GIF, ICO, PNG,
+JPEG, PPM, TIFF), so `favicon.ico` must stay in place for the icon to appear in
+search results; the SVG alone is not enough.
 
 The only external request is the Inter webfont from Google Fonts. Delete the two
 `<link rel="preconnect">` tags and the `fonts.googleapis.com` stylesheet in
